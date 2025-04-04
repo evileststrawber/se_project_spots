@@ -19,7 +19,7 @@ This project is a social media web app, where users can upload photos and edit t
 
 This webpage is deployed to Github Pages
 
-- deployment link: https://github.com/evileststrawber/se_project_spots
+- deployment link: https://evileststrawber.github.io/se_project_spots
 
 ## Video
 
