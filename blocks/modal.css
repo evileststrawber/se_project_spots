@@ -1,8 +1,5 @@
 .modal {
   visibility: hidden;
-  opacity: 0;
-  transform: scale(0.95);
-  transition: opacity 0.3s ease, transform 0.3s ease;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;

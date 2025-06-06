@@ -22,25 +22,10 @@ const profileDescriptionEl = document.querySelector(".profile__description");
 const newPostImageEl = document.querySelector(".modal__image-input");
 const newPostCaptionEl = document.querySelector(".modal__caption-input");
 
-function closeModal(modal) {
-  modal.classList.remove("modal_is-opened");
-  modal.addEventListener("transitionend", function handler() {
-    modal.style.visibility = "hidden";
-    modal.removeEventListener("transitionend", handler);
-  });
-}
-
-function openModal(modal) {
-  modal.style.visibility = "visible";
-  requestAnimationFrame(() => {
-    modal.classList.add("modal_is-opened");
-  });
-}
-
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
-  closeModal(editProfileModal);
+  editProfileModal.classList.add("modal_is-opened");
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
