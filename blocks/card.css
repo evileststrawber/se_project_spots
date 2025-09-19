@@ -17,6 +17,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .card__like-button {
@@ -31,10 +32,6 @@
   background-size: contain;
   transition: opacity 0.5s;
   cursor: pointer;
-}
-
-.card__like-button:hover {
-  opacity: 100%;
 }
 
 .card__like-button_active {
