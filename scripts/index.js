@@ -138,8 +138,6 @@ function handleNewPostSubmit(evt) {
   };
   newPostImageInput.textContent = newPostImageInput.value;
   newPostCaptionInput.textContent = newPostCaptionInput.value;
-  console.log(newPostImageInput.value);
-  console.log(newPostCaptionInput.value);
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
   newPostForm.reset();
